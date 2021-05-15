@@ -1,0 +1,53 @@
+.main-content .element{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+}
+.main-content{
+    margin-top: 50px;
+}
+.element .txt-descrip{
+    width: 50%;
+}
+.element div .topic{
+    color: var(--blanco);
+}
+.element div .topic>h1{
+    font-size: 4rem;
+    margin: 0;
+    padding-top: 30px;
+    font-family: orbitron,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.element div .topic>h3{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 50px 0 25px 0;
+    font-family: orbitron,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.element div .btn--ref{
+    width: 100%;
+    display: block;
+    padding: 20px 30px;
+}
+.element div .btn--ref>a{
+    color: var(--fondo);
+    background-color: var(--cyan);
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.element .window-project{
+    width: 50%;
+    max-height: 400px;
+    overflow: hidden;
+}
+.window-project>img{
+    width: 100%;
+}

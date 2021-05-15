@@ -1,0 +1,440 @@
+/*MEDIA QUERIES*/
+@media(max-width: 1080px){
+    .cont .items li>a{
+        font-size: 2rem;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 4.5rem;
+    }
+
+    /*CONTACTO*/
+    .contact-user form{
+        padding: 0 20px;
+    }
+    .contact-user form .box{
+        width: 275px;
+    }
+    .btn-wss-ct{
+        bottom: 30px;
+        right: 20px;        
+    }
+
+
+    /* DISEÑO GRAFICO */
+    .contain-all-d{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media(max-width: 950px){
+    header .ctn-princ-header{
+        margin: 20px 30px 0 30px;
+    }
+    .btn-menu{
+        top: 40px;
+        right: 30px;
+    }
+    nav .view-menu{
+        padding: 40px 30px 0 30px;
+    }
+    .view-menu .cont{
+        padding:  30px 20px;        
+    }
+    .view-menu.active .cont{
+        display: block;
+    }
+    .cont .items li>a{
+        font-size: 2.25rem;
+    }
+    .cont .social-media{
+        padding: 10px 0;
+    }
+    .social-media li{
+        padding-bottom: 10px;
+    }
+    .social-media li>a{
+        font-size: 1.5rem;
+    }
+
+    /*main*/
+    .back-fond{
+        position: relative;
+        height: 590px;
+    }
+    .fond-back{
+        position: absolute;
+        top: 0;
+        right: -5%;
+        height: 100%;
+        width: auto;
+    }
+    .back-fond .ctn-main{
+        padding: 0 70px;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 4rem;
+    }
+    .ctn-main .subtitleP{
+        font-size: 18px;
+    }
+    .back-fond .ctn-main>p{
+        font-size: 16px;
+    }
+
+    /*CONTACTO*/
+    .contact-user form .box>label{
+        font-size: 14px;
+    }
+    .contact-user .descrip>h2{
+        font-size: 22px;
+    }
+    .descrip>p{
+        font-size: .8rem;
+    }
+    .descrip .photo>img{
+        width: 55px;
+    }
+    .perfil-user .infor>p{
+        margin: 10px 0;
+    }
+
+
+    /* DISEÑO GRAFICO */
+    .contain-all-d{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media(max-width: 850px){
+    /*main*/
+    .back-fond .ctn-main{
+        padding: 0 50px;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 3.25rem;
+    }
+    .ctn-main .subtitleP{
+        font-size: 16px;
+    }
+    .back-fond .ctn-main>p{
+        font-size: 14px;
+    }
+
+    /*EXPLORA*/
+    .ctn-box .box-category{
+        padding: 0;
+    }
+
+    /*CONTACTO*/
+    .contact-user form .box>label{
+        font-size: 14px;
+    }
+    .contact-user .descrip{
+        padding-left: 15px;
+    }
+    .contact-user .descrip>h2{
+        font-size: 18px;
+    }
+    .descrip>p{
+        font-size: .75rem;
+    }
+    .descrip .photo>img{
+        width: 50px;
+    }
+    .perfil-user .infor>p{
+        margin: 5px 0;
+        font-size: 14px;
+    }
+    .contact-user form .box{
+        width: 225px;
+    }
+
+    /*FOOTER*/
+    .ctn-footer .group{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .ctn-footer .group .social{
+        display: block;
+        width: 100%;
+
+    }
+    .ctn-footer .group .social>img{
+        padding-bottom: 15px;
+        margin: 0;
+    }
+    .ctn-footer .group .social div>a{
+        font-size: 1.75rem;
+    } 
+    
+
+    /* DISEÑO GRAFICO */
+    .detalle>p{
+        font-size: 12px;
+    }
+    .client-dzn{
+        font-size: 1.6rem;
+    }
+    .inf-detalle>p{
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 700px){
+    /*main*/
+    .fond-back{
+        right: -15%;
+        opacity: 60%;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 3.8rem;
+    }
+    .ctn-main .subtitleP{
+        font-size: 24px;
+    }
+    .back-fond .ctn-main>p{
+        font-size: 22px;
+    }
+
+    /*EXPLORA*/
+    .ctn-box .box-category{
+        padding: 0;
+    }
+    .box-category .cl-mg-6{
+        padding: 0 30px;
+    }
+    .box-category div>a{
+        width: 200px;
+        height: 200px;
+    }
+        .box-category div a>h1{
+            font-size: 1.4rem;
+        }
+    
+    /*CONTACTO*/
+    .contact-user{
+        display: block;
+        padding: 30px;
+    }
+    .contact-user .descrip{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }  
+        .contact-user .descrip>h2{
+            font-size: 24px;
+        }
+        .descrip>p{
+            font-size: .9rem;
+        }
+        .descrip .perfil-user{
+            justify-content: center;
+            margin-bottom: 60px;
+        }
+    .contact-user .form form{
+        padding: 0 0 20px 0;
+    }
+    .contact-user form .box{
+        width: 100%;
+        padding: 0;
+    }
+    .contact-user form .btn-submit{
+        margin: 20px 0 0 0;
+    }
+
+
+    /* DISEÑO GRAFICO */
+    .topic-general>h1{
+        font-size: 3rem;
+    }
+    .contain-all-d{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #display-visual .contain{
+        margin: 40px 60px;
+    }
+}
+@media(max-width: 600px){
+    .h-ctn .icon-logo>img{
+        height: 55px;
+        width: auto;
+    }
+    .btn-menu{
+        top: 30px;
+    }
+    .cont .items li>a{
+        font-size: 1.75rem;
+    }
+    .social-media li>a{
+        font-size: 1.25rem;
+    }
+
+    /*main*/
+    .back-fond{
+        background-color: #000207;z-index: -2;
+        height: 550px;
+    }
+    .fond-back{
+        top: 5%;
+        right: -25%;        
+    }
+    .back-fond .ctn-main{
+        padding: 0 30px;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 2.5rem;
+    }
+    .ctn-main .subtitleP{
+        font-size: 16px;
+    }
+    .back-fond .ctn-main>p{
+        font-size: 14px;
+    }
+    .ctn-main .items span{
+        font-size: 12px;
+    }
+
+    /*EXPLORA*/
+    .box-category div>a{
+        width: 175px;
+        height: 175px;
+    }
+        .box-category div a>h1{
+            font-size: 1.2rem;
+        }
+
+
+    /* DISEÑO GRAFICO */
+    .descripcion div .inf-detalle p>.data{
+        padding-left: 15px;
+    }
+    #display-visual .contain{
+        margin: 30px 40px;
+    }
+    #header-screen .descripcion{
+        display: block;
+    }
+    .descripcion>div{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    #header-screen .descripcion div .inf-detalle{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+    #header-screen .descripcion div .inf-detalle>p{
+        justify-content: center;
+        width: 100%;
+    }
+    .descripcion .detalle{
+        width: 100%;
+        margin: auto;
+    }
+    .descripcion .detalle>p{
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+
+@media(max-width: 500px){
+    .h-ctn .icon-logo>img{
+        height: 50px;
+    }
+    .btn-menu{
+        top: 25px;
+    }
+    .cont .items li>a{
+        font-size: 1.25rem;
+    }
+    .social-media li>a{
+        font-size: 1.25rem;
+    }
+
+    /*main*/
+    .fond-back{
+        right: -50%;
+    }
+    .back-fond .ctn-main{
+        padding: 0 25px;
+    }
+    .back-fond .ctn-main div>.titleP{
+        font-size: 2.4rem;
+    }
+    .ctn-main .subtitleP{
+        font-size: 18px;
+    }
+    .back-fond .ctn-main p>span{
+        font-size: 14px;
+    }
+    .back-fond .ctn-main>p{
+        font-size: 16px;
+    }
+
+    /*EXPLORA*/
+    .content .ctn-box{
+        display: block;
+    }
+    .box-category{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .box-category .cl-mg-6{
+        padding: 20px 0 10px 0;
+    }
+        .box-category div a>h1{
+            font-size: 1.3rem;
+        } 
+    
+    /*CONTACTO*/
+    .contact-user .descrip>h2{
+        font-size: 20px;
+    }
+    .descrip>p{
+        font-size: .8rem;
+    }
+
+
+    /* DISEÑO GRAFICO */
+    .topic-general>h1{
+        font-size: 2.2rem;
+    }
+    .contain-all-d{
+        grid-template-columns: 1fr;
+    }
+
+
+
+    /* DISEÑO GRAFICO */
+    
+}
+
+
+@media(max-width:400px){
+    #btn-close{
+        font-size: 1.5rem;
+        top: 15px;
+        right: 35px;
+    }
+    #header-screen{
+        padding: 20px 40px;
+    }
+    #header-screen>h1{
+        font-size: 1.4rem;
+    }
+    #header-screen .descripcion{
+        padding: 20px 0;
+    }
+    #header-screen .descripcion div .inf-detalle>p{
+        font-size: 10px;
+    }
+}
